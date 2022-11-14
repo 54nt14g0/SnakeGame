@@ -54,6 +54,10 @@ public class JuegoController implements Initializable {
 
 	@Override
 	public void initialize(URL location, ResourceBundle resources) {
+		
+		
+		
+		
 		lblPlayer.setText(singleton.getOpciones().getUsuarioSeleccionado().getName());
 		gm = new GraphicMap(mapaJuego, map);
 
